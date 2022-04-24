@@ -22,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 		if (*(src + count2) == '\0')
 			break;
 		count++;
-		count2;
+		count2++;
 	}
 	return (dest);
 }
